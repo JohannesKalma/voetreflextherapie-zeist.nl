@@ -1,0 +1,55 @@
+[
+  {
+    "wp:term_id": 1,
+    "wp:category_nicename": "algemeen",
+    "wp:category_parent": "",
+    "wp:cat_name": "Algemeen",
+    "wp:category_description": "Dit zijn algemene blog berichten",
+    "wp:termmeta": {
+      "wp:meta_key": "autodescription-term-settings",
+      "wp:meta_value": "a:6:{s:8:\"doctitle\";s:0:\"\";s:11:\"description\";s:0:\"\";s:7:\"noindex\";i:0;s:8:\"nofollow\";i:0;s:9:\"noarchive\";i:0;s:10:\"saved_flag\";i:1;}"
+    }
+  },
+  {
+    "wp:term_id": 17,
+    "wp:category_nicename": "allergie",
+    "wp:category_parent": "",
+    "wp:cat_name": "Allergie"
+  },
+  {
+    "wp:term_id": 16,
+    "wp:category_nicename": "hormonen",
+    "wp:category_parent": "",
+    "wp:cat_name": "Hormonen"
+  },
+  {
+    "wp:term_id": 4,
+    "wp:category_nicename": "lichaam-en-geest",
+    "wp:category_parent": "",
+    "wp:cat_name": "lichaam en geest"
+  },
+  {
+    "wp:term_id": 15,
+    "wp:category_nicename": "stress",
+    "wp:category_parent": "",
+    "wp:cat_name": "Stress"
+  },
+  {
+    "wp:term_id": 10,
+    "wp:category_nicename": "zwangerschap",
+    "wp:category_parent": "",
+    "wp:cat_name": "zwangerschap"
+  },
+  {
+    "wp:term_id": 6,
+    "wp:category_nicename": "geest",
+    "wp:category_parent": "lichaam-en-geest",
+    "wp:cat_name": "geest"
+  },
+  {
+    "wp:term_id": 5,
+    "wp:category_nicename": "lichaam",
+    "wp:category_parent": "lichaam-en-geest",
+    "wp:cat_name": "lichaam"
+  }
+]

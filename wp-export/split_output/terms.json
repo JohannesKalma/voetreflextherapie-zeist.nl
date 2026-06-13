@@ -1,0 +1,47 @@
+[
+  {
+    "wp:term_id": 19,
+    "wp:term_taxonomy": "cp_page_type",
+    "wp:term_slug": "algemeen",
+    "wp:term_parent": "",
+    "wp:term_name": "Algemeen"
+  },
+  {
+    "wp:term_id": 18,
+    "wp:term_taxonomy": "cp_page_type",
+    "wp:term_slug": "artikel",
+    "wp:term_parent": "",
+    "wp:term_name": "Artikel"
+  },
+  {
+    "wp:term_id": 20,
+    "wp:term_taxonomy": "cp_page_type",
+    "wp:term_slug": "frontpage",
+    "wp:term_parent": "algemeen",
+    "wp:term_name": "Frontpage"
+  },
+  {
+    "wp:term_id": 7,
+    "wp:term_taxonomy": "nav_menu",
+    "wp:term_slug": "footer-menu-info-paginas",
+    "wp:term_name": "Footer menu (info pagina&#039;s)"
+  },
+  {
+    "wp:term_id": 8,
+    "wp:term_taxonomy": "nav_menu",
+    "wp:term_slug": "footer-menu-personal-pages",
+    "wp:term_name": "Footer menu (personal pages)"
+  },
+  {
+    "wp:term_id": 3,
+    "wp:term_taxonomy": "nav_menu",
+    "wp:term_slug": "hoofdmenu",
+    "wp:term_name": "Hoofdmenu"
+  },
+  {
+    "wp:term_id": 9,
+    "wp:term_taxonomy": "nav_menu",
+    "wp:term_slug": "hoofdmenu-2",
+    "wp:term_name": "Hoofdmenu 2"
+  }
+]
