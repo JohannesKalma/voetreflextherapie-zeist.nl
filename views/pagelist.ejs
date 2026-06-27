@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<%- include('partials/header') %>
+
+  <header>
+    <h1>Welkom bij Voetreflextherapie Zeist</h1>
+    <p>Ontdek ontspanning en balans met professionele voetreflextherapie.</p>
+  </header>
+
+  <main>
+    <section>
+        <% posts.forEach((item) => { %>
+            <%=item.post_id %>: <a href="/<%= item.post_name %>"><%= item.title %></a><br>
+        <% }); %>
+    </section>
+  </main>
+
+<%- include('partials/footer') %>

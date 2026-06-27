@@ -1,31 +1,20 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voetreflextherapie Zeist</title>
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-
-  <%- include('partials/mainMenu') %>
+<%- include('partials/header') %>
 
   <main class="post">
 
     <article>
       <section class="content">
-        <%- post.content %>
+        <%- page.content %>
       </section>
     </article>
 
+    <p class="meta">
+      <% if (page.date) { %><span>
+          <%= page.date %>
+        </span>
+        <% } %>
+    </p>
+
   </main>
 
-  <footer>
-
-<div style="padding-top:20px">
-  <%- include('partials/footerMenu') %>
-</div>  
-    <p>© <%= new Date().getFullYear() %> Voetreflextherapie Zeist</p>
-  </footer>
-</body>
-</html>
+<%- include('partials/footer') %>
