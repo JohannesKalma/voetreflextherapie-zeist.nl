@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const app = express();
-const PORT = 3000;
+const PORT = 3501;
 
 await initializeCache();
 const navigation = { hoofdmenu: getNav().navMenus?.hoofdmenu, footerMenu: getNav().navMenus['footer-menu-personal-pages'] }
